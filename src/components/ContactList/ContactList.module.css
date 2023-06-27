@@ -1,0 +1,35 @@
+.list {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.item {
+  background-color: #ddaf94;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact {
+  margin-right: 30px;
+}
+.btn {
+  text-decoration: none;
+  cursor: pointer;
+  width: 90px;
+  font-weight: bold;
+  color: #000000;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  background: #e8cebf;
+}
+
+.btn:hover {
+  background: #50362fbd;
+  color: #ffffff;
+  border: none;
+}
